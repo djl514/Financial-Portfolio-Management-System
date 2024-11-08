@@ -1,7 +1,8 @@
 // creates and exports asset array of objects
 export const assets = [
     { id: 1, name: "IBM Bond", type: "Bond", price: 1000, quantity: 100},
-    { id: 2, name: "IBM Stock", type: "Stock", price: 100, quantity: 1000}
+    { id: 2, name: "IBM Stock", type: "Stock", price: 100, quantity: 1000},
+    { id: 3, name: "Meta Stock", type: "Stock", price: 100, quantity: 2000}
 ];
 
 //creates and exports a helper function to get the asset by ID
