@@ -5,10 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Portfolio Management System</title>
 </head>
-<body>
-    <h1>Financial Portfolio Management System</h1>
+<body bgcolor = "beige">
 
+    <style>
+        .container{
+            container-type: inline-size;
+            width: 300px;
+            position: relative;
+            background-color: white;
+            font-size: 1em;
+            border-style: groove;
+            margin: auto;
+            padding:20px
+        }
+
+        .container2{
+            container-type: inline-size;
+            width: 300px;
+            position: relative;
+            background-color: white;
+            font-size: 1em;
+            border-style: groove;
+            margin: auto;
+            padding: 20px
+        }
+
+        hr{
+            border-top: 1px dashed black;
+        }
+
+    </style>
+    <h1><center>Financial Portfolio Management System</center></h1>
+
+    <div class="container">
     <div id="portfolioDetails"></div>
+    <hr>
+
+    <center><h3>Allocation Percentages</h3></center>
+    <center><ul id="portfolioPercentages"></ul></center>
+</div>
+    <div id="portfolioTrans" class="container2">
+        <table border="1">
+            <th colspan="3">Receipts</th>
+        </table>
+    </div>
+
     <!-- Portfolio details and transaction log sections here -->
     <!-- Main script entry point with module type -->
 
